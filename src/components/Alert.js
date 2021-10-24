@@ -1,0 +1,17 @@
+import React from 'react'
+
+function Alert(Props) {
+    return (
+        <>
+        <div>
+            <div className="alert alert-warning alert-dismissible fade show" role="alert">
+                {/* <strong> {Props.alert.type} </strong> : {Props.alert.msg} */}
+                <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+
+        </div>
+        </>
+    )
+}
+
+export default Alert
